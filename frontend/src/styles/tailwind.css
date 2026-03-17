@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Tailwind Components */
+
+.container-page {
+  @apply p-6 bg-white rounded shadow;
+}
+
+.page-title {
+  @apply text-2xl font-semibold mb-4;
+}
+
+.card-box {
+  @apply bg-white p-4 rounded shadow;
+}
